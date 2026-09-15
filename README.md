@@ -27,3 +27,12 @@ These apps are intentionally minimal and **not** intended for production use.
 | [`nuxt/`](./nuxt)           | Nuxt          | Nuxt 4.5.2, Vue 3, TypeScript                    | `npm run dev`    | 3000         |
 | [`astro/`](./astro)         | Astro         | Astro 7.3.2, TypeScript                          | `npm run dev`    | 4321         |
 | [`sveltekit/`](./sveltekit) | SvelteKit     | SvelteKit 2.70.3, Svelte 5.57.0, TypeScript      | `npm run dev`    | 5173         |
+
+## Routes
+
+Every app exposes two routes so that routing can also be tested after deployment:
+
+| Path     | Content                                                   |
+| -------- | --------------------------------------------------------- |
+| `/`      | `This is a QuickStack Demo Application using <Framework>` |
+| `/hello` | `Hello 🧦🍺 <Framework>`                                  |
